@@ -12,7 +12,8 @@ v_count = 0
 c_count = 0
 for ch in text:
     if ch.isalpha()  :
-     v_count+=1
+     if ch in vowels:
+      v_count+=1
     else:
      c_count+=1
      print("vowels:",v_count,"consonents:",c_count)
