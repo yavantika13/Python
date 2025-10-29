@@ -1,4 +1,4 @@
-text= "madam"
+text= "234"
 is_pailndrome = True
 for i in range(len(text)//2):
     if text[i] != text[-(i+1)]:
