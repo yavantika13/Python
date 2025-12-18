@@ -1,4 +1,3 @@
-# Read input
 N, M = map(int, input().split())
 last_digit_N = N % 10
 last_digit_M = M % 10
